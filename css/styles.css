@@ -1,14 +1,62 @@
+.root {
+    --primary-text-color:#212121;
+    --p-text-color:#757575;
+    --accent-color:#2196F3;
+    --primary-white-color:#FFFFFF;
+}
+
+
 .body{
     background-color:#F5F5F5 ;
     color:#212121 ;
 }
-.button:hover{
-    color:#F5F5F5 ;
+
+ .header-logo{
+    color: #000000;
 }
-.header.logo.:hover{
-    color: #2196F3;
+.header-logo:hover{
+    color:#2196F3 ;
 }
-/* цвет фона   #F5F5F5 */
-/* акцент 2196F3 */
+.list{
+    list-style: none;
+}
+/* цвет фона  #F5F5F5 */
+/* акцент #2196F3 */
 /* белый #FFFFFF */
 /* основ цвет текста #212121 */
+/* цвет лого #000000 и #2196F3 */
+/* hooter bgc #2F303A */
+/* hooter text #FFFFFF */
+/* command bgc #F5F4FA  */
+/* footer bgc #2F303A */
+/* цвет абзацов #757575 */
+
+
+/* site nav */
+.site-nav .link{
+    color:#2196F3 ;
+}
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color: #000000;
+}
+.site-nav .list.current{
+    color: var(--primary-text-color);
+}
+/* hero */
+.hero-title{
+    color:#000000 ;
+}
+/* secttion */
+.section-title{
+    color: #212121;
+}
+
+
+.link{
+    color: #2196F3;
+}
+.section-title .text {
+    color: #757575;
+}
+/* button */
