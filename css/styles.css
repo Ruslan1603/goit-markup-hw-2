@@ -7,13 +7,13 @@
     --silver-bgc:#F5F4FA;
 }
 
-
+/* body */
 body {
     background-color:#F5F5F5 ;
     color:#212121 ;
     font-family: Roboto, sans-serif;
 }
-
+ 
 /* header */
  .header-logo {
     color: #000000;
@@ -105,13 +105,6 @@ letter-spacing: 0.03%;
 color: #2196F3;
 text-decoration: none;
 }
-    
-/* text */
-.section-title .text {
-    color: var(--p-text-color);
-}
-
-
 
 /* button */
 button:hover{ 
@@ -141,7 +134,7 @@ button{
     background-color: var(--primary-white-color);
 }
 
-
+/* text h2 h3 p */
 .section-hum {
     background-color:#F5F4FA;
 }
@@ -173,6 +166,7 @@ address{
         text-align: center;
         letter-spacing: 0.03%;
 }
+/* footer styles */
 .link-tel, .link-mail{
     font-family: 'Roboto';
         font-style: 400;
@@ -183,6 +177,7 @@ address{
         color: rgba(255, 255, 255, 0.6);
         text-decoration: none;
 }
+
 footer{
     background-color: #2F303A;
 }
