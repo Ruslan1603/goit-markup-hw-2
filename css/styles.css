@@ -163,22 +163,22 @@ button:hover {
         letter-spacing: 0.03rem;
 }
 .port-title{
-    font-weight: 700;
+        font-weight: 700;
         font-size: 18px;
         line-height:2;
         letter-spacing: 0.06rem;
-    
         color: #212121;
 }
 .port-text{
-    font-weight: 400;
+        font-weight: 400;
         font-size: 16px;
         line-height: 1.9;
         letter-spacing: 0.03rem;
+        color: var(--p-text-color);
 }
 /* footer styles */
 .link-tel, .link-mail{
-    font-family: 'Roboto';
+        font-family: 'Roboto';
         font-style:normal;
         font-weight: 400;
         font-size: 14px;
