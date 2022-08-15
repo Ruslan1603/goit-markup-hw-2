@@ -3,6 +3,8 @@
     --p-text-color:#757575;
     --accent-color:#2196F3;
     --primary-white-color:#FFFFFF;
+    --bgc-color:#F5F5F5;
+    --silver-bgc:#F5F4FA;
 }
 
 
@@ -15,11 +17,13 @@ body {
 /* header */
  .header-logo {
     color: #000000;
-    font-family: Raleway, sans-serif;
+    font-family: 'Raleway';
+    font-style: 400;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 3%;
+    text-decoration: none;
 }
 .header-logo:hover {
     color:#2196F3 ;
@@ -43,10 +47,10 @@ ul {
 .site-nav .link {
     color: #000000;
     font-family: Roboto, sans-serif;  
-    font-style: medium; 
+    font-style: 500; 
     font-size: 14px;  
     line-height: 1.1;
-     letter-spacing: 2%; 
+    letter-spacing: 2%; 
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -61,7 +65,8 @@ ul {
             font-style: medium;
             font-size: 14px;
             line-height: 1.14;
-            letter-spacing: 2%; 
+            letter-spacing: 2%;
+            text-decoration: none; 
         }
 .auth-nav .link:hover,
 .auth-nav .link:focus {
@@ -70,6 +75,12 @@ ul {
 /* hero */
 .hero-title {
     color:#000000 ;
+    font-family: 'Roboto';
+        font-style: 400;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
 }
 /* secttion */
 .section-title {
@@ -107,4 +118,64 @@ button{
 .btn:hover{
     background-color: var(--primary-white-color);
     color: var(--primary-text-color);
+}
+/* bgc color section */
+.port-bgc .section-dev {
+    background-color:var(--bgc-color);
+}
+.header-port .header-studio{
+    background-color: var(--primary-white-color);
+}
+
+
+.section-hum {
+    background-color:var(--silver-bgc);
+}
+address{
+    font-style: 400;
+}
+h3{
+    font-style: 400;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03%;
+}
+p{
+        font-style: 400;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03%;
+        color: #757575;
+}
+h2{
+        font-style: 400;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        text-align: center;
+        letter-spacing: 0.03%;
+}
+.link-tel, .link-mail{
+    font-family: 'Roboto';
+        font-style: 400;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03%;
+        color: rgba(255, 255, 255, 0.6);
+        text-decoration: none;
+}
+footer{
+    background-color: #2F303A;
+}
+.link-map{
+        font-style: 400;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03%;
+        color: #FFFFFF;
+        text-decoration: none;
 }
