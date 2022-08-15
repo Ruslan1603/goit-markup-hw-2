@@ -17,7 +17,7 @@ body {
 /* header */
  .header-logo {
     color: #000000;
-    font-family: 'Raleway';
+    font-family: Raleway,sans-serif;
     font-style: 400;
     font-weight: 700;
     font-size: 26px;
@@ -25,7 +25,18 @@ body {
     letter-spacing: 3%;
     text-decoration: none;
 }
-.header-logo:hover {
+.header-studio,
+.header-port{
+    background-color: var(--primary-white-color);
+}
+.web{
+    color: var(--accent-color);
+}
+.studio{
+    color: var(--primary-white-color);
+}
+.header-logo:hover,
+.header-logo:focus {
     color:#2196F3 ;
 }
 ul {
@@ -83,22 +94,25 @@ ul {
         text-align: center;
 }
 /* secttion */
-.section-title {
-    color: #212121;
-}
 
-
-.link{
-    color: #2196F3;
+.link-foter{
+font-family: Raleway;
+font-style: 400;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03%;
+color: #2196F3;
+text-decoration: none;
 }
     
 /* text */
 .section-title .text {
     color: var(--p-text-color);
 }
-p {
-    color: var(--p-text-color);
-}
+
+
+
 /* button */
 button:hover{ 
     color: var(--primary-white-color);
@@ -129,19 +143,21 @@ button{
 
 
 .section-hum {
-    background-color:var(--silver-bgc);
+    background-color:#F5F4FA;
 }
 address{
     font-style: 400;
 }
-h3{
+.section-dev,
+.section{
     font-style: 400;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.19;
     letter-spacing: 0.03%;
+    
 }
-p{
+.text{
         font-style: 400;
         font-weight: 400;
         font-size: 14px;
@@ -149,7 +165,7 @@ p{
         letter-spacing: 0.03%;
         color: #757575;
 }
-h2{
+.title{
         font-style: 400;
         font-weight: 700;
         font-size: 36px;
