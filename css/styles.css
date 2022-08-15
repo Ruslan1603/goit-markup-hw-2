@@ -9,7 +9,7 @@
 
 /* body */
 body {
-    background-color:#F5F5F5 ;
+    background-color:var(--primary-white-color);
     color:#212121 ;
     font-family: Roboto, sans-serif;
 }
@@ -18,11 +18,10 @@ body {
  .header-logo {
     color: #000000;
     font-family: Raleway,sans-serif;
-    font-style: 400;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
-    letter-spacing: 3%;
+    letter-spacing: 0.03rem;
     text-decoration: none;
 }
 .header-studio,
@@ -35,7 +34,7 @@ body {
 .studio{
     color: var(--primary-white-color);
 }
-.header-logo:hover,
+
 .header-logo:focus {
     color:#2196F3 ;
 }
@@ -57,11 +56,11 @@ ul {
 /* site nav */
 .site-nav .link {
     color: #000000;
-    font-family: Roboto, sans-serif;  
-    font-style: 500; 
+    font-family: Roboto, sans-serif;   
     font-size: 14px;  
     line-height: 1.1;
-    letter-spacing: 2%; 
+    letter-spacing: 0.02rem; 
+    text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -71,37 +70,37 @@ ul {
     }
     /* auth nav */
     .auth-nav .link{
-            color: var(--p-text-color);
-            font-family: Roboto, sans-serif; 
-            font-style: medium;
-            font-size: 14px;
-            line-height: 1.14;
-            letter-spacing: 2%;
-            text-decoration: none; 
+        color: var(--p-text-color);
+        font-family: Roboto, sans-serif; 
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02rem;
+        text-decoration: none; 
         }
 .auth-nav .link:hover,
 .auth-nav .link:focus {
     color: #2196F3;
 }
 /* hero */
+.hero{
+    background-color: #2F303A;
+}
 .hero-title {
-    color:#000000 ;
+    color:var(--primary-white-color);
     font-family: 'Roboto';
-        font-style: 400;
-        font-weight: 900;
-        font-size: 44px;
-        line-height: 1.36;
-        text-align: center;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
 }
 /* secttion */
 
 .link-foter{
 font-family: Raleway;
-font-style: 400;
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
-letter-spacing: 0.03%;
+letter-spacing: 0.03rem;
 color: #2196F3;
 text-decoration: none;
 }
@@ -121,13 +120,17 @@ button{
     background-color: var(--accent-color);
     color: var(--primary-white-color);
     font-family: inherit;
+    cursor: pointer;
+}
+.port-btn{
+    cursor: pointer;
 }
 .btn:hover{
     background-color: var(--primary-white-color);
     color: var(--primary-text-color);
 }
 /* bgc color section */
-.port-bgc .section-dev {
+.port-bgc.section-dev {
     background-color:var(--bgc-color);
 }
 .header-port .header-studio{
@@ -138,42 +141,51 @@ button{
 .section-hum {
     background-color:#F5F4FA;
 }
-address{
-    font-style: 400;
-}
+
 .section-dev,
 .section{
-    font-style: 400;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.19;
-    letter-spacing: 0.03%;
+    letter-spacing: 0.03rem;
     
 }
 .text{
-        font-style: 400;
         font-weight: 400;
         font-size: 14px;
         line-height: 1.19;
-        letter-spacing: 0.03%;
+        letter-spacing: 0.03rem;
         color: #757575;
 }
 .title{
-        font-style: 400;
         font-weight: 700;
         font-size: 36px;
         line-height: 1.17;
         text-align: center;
-        letter-spacing: 0.03%;
+        letter-spacing: 0.03rem;
+}
+.port-title{
+    font-weight: 700;
+        font-size: 18px;
+        line-height:2;
+        letter-spacing: 0.06rem;
+    
+        color: #212121;
+}
+.port-text{
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.9;
+        letter-spacing: 0.03rem;
 }
 /* footer styles */
 .link-tel, .link-mail{
     font-family: 'Roboto';
-        font-style: 400;
+        font-style:normal;
         font-weight: 400;
         font-size: 14px;
         line-height: 1.71;
-        letter-spacing: 0.03%;
+        letter-spacing: 0.03rem;
         color: rgba(255, 255, 255, 0.6);
         text-decoration: none;
 }
@@ -182,11 +194,16 @@ footer{
     background-color: #2F303A;
 }
 .link-map{
-        font-style: 400;
+        font-style:normal;
         font-weight: 400;
         font-size: 14px;
         line-height: 1.71;
-        letter-spacing: 0.03%;
+        letter-spacing: 0.03rem;
         color: #FFFFFF;
         text-decoration: none;
+}
+.link-tel:hover,
+.link-mail:hover,
+.link-map:hover{
+    color: var(--accent-color);
 }
