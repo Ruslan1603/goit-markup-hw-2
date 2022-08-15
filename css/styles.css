@@ -106,16 +106,12 @@ text-decoration: none;
 }
 
 /* button */
-button:hover{ 
+button:hover {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
 }
 
-button{
-    background-color: #F5F4FA;
-    color: var(--primary-text-color);
-    font-family: inherit;
-}
+
 .btn{
     background-color: var(--accent-color);
     color: var(--primary-white-color);
@@ -123,6 +119,8 @@ button{
     cursor: pointer;
 }
 .port-btn{
+    color: var(--primary-text-color);
+    background-color: var(--primary-white-color);
     cursor: pointer;
 }
 .btn:hover{
