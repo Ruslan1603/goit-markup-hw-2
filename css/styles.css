@@ -56,7 +56,8 @@ ul {
 /* site nav */
 .site-nav .link {
     color: #000000;
-    font-family: Roboto, sans-serif;   
+    font-family: Roboto, sans-serif; 
+    font-weight: 500;
     font-size: 14px;  
     line-height: 1.1;
     letter-spacing: 0.02rem; 
@@ -72,6 +73,7 @@ ul {
     .auth-nav .link{
         color: var(--p-text-color);
         font-family: Roboto, sans-serif; 
+        font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.02rem;
@@ -93,17 +95,6 @@ ul {
     line-height: 1.36;
     text-align: center;
 }
-/* secttion */
-
-.link-foter{
-font-family: Raleway;
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03rem;
-color: #2196F3;
-text-decoration: none;
-}
 
 /* button */
 
@@ -111,14 +102,33 @@ text-decoration: none;
 .btn{
     background-color: var(--accent-color);
     color: var(--primary-white-color);
-    font-family: inherit;
+    font-family: Roboto;
+     font-weight: 700;
+     font-size: 16px;
+    line-height: 1.9;
+     display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
     cursor: pointer;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
      border-radius: 4px;
 }
+
+.btn:hover,
+.btn:focus {
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+}
 .port-btn{
     color: var(--primary-text-color);
     background-color: var(--primary-white-color);
+    font-family: Roboto;
+    font-weight: 500;
+     font-size: 16px;
+     line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
     cursor: pointer;
 }
 .port-btn:hover,
@@ -126,11 +136,7 @@ text-decoration: none;
     color: var(--primary-white-color);
     background-color: var(--accent-color);
 }
-.btn:hover,
-.btn:focus{
-    background-color: var(--primary-white-color);
-    color: var(--primary-text-color);
-}
+
 /* bgc color section */
 .port-bgc.section-dev {
     background-color:var(--bgc-color);
@@ -208,4 +214,13 @@ footer{
 .link-mail:hover,
 .link-map:hover{
     color: var(--accent-color);
+}
+.link-foter {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03rem;
+    color: #2196F3;
+    text-decoration: none;
 }
